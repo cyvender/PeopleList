@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleList", "PeopleList\PeopleList.csproj", "{406CB456-95C8-4351-AEC7-1EB84CB25DF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleList.Web", "PeopleList\PeopleList.Web.csproj", "{406CB456-95C8-4351-AEC7-1EB84CB25DF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleList.Data", "PeopleList.Data\PeopleList.Data.csproj", "{ACCCEC11-A4C6-4FC0-BC4C-7B41381E0CBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{406CB456-95C8-4351-AEC7-1EB84CB25DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{406CB456-95C8-4351-AEC7-1EB84CB25DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{406CB456-95C8-4351-AEC7-1EB84CB25DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCCEC11-A4C6-4FC0-BC4C-7B41381E0CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCCEC11-A4C6-4FC0-BC4C-7B41381E0CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCCEC11-A4C6-4FC0-BC4C-7B41381E0CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCCEC11-A4C6-4FC0-BC4C-7B41381E0CBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
