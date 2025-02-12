@@ -1,0 +1,26 @@
+﻿<body>
+	<div class="container mt-5">
+		<button id="add-row" class="btn btn-dark">Add Row</button>
+		<div id="whole-thing">
+			<form style="margin-top: 10px" action="/home/addpeople" method="post">
+				<div id="input" class="row person-row" style="margin-bottom: 10px">
+					<div class="col-md-4">
+						<input id="firstname0" type="text" class="form-control" name="people[0].firstname" placeholder="First Name" />
+					</div>
+					<div class="col-md-4">
+						<input id="lastname0" type="text" class="form-control" name="people[0].lastname" placeholder="Last Name" />
+					</div>
+					<div class="col-md-4">
+						<input id="age0" type="text" class="form-control" name="people[0].age" placeholder="Age" />
+					</div>
+ 				</div>
+				<button id="submit" disabled class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+	</div>
+</body>
+
+
+@section Scripts {
+	<script src="~/js/Add.js"></script>
+}
